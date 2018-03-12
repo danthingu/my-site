@@ -20,7 +20,6 @@ class Resume extends Component {
                     { work.description.map(function(des) {
                         return <li key={des.name}>{des.name}</li>
                     })}
-                })
                 </div>
             })
             
