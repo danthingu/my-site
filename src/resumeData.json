@@ -78,10 +78,10 @@
         "title":"Application Engineer",
         "years":"June 2015 - April 2016",
         "description":[
-          {"name": "Designed and debugged desktop application in C#/WPF with MVVM, MVCVM, and SOLID Principle."},
-          {"name":"Designed and implemented highly interactive Windows-based GUI for application setup & part inspection using XAML."},
-          {"name":"Integrate the existing math and image processing library for point fitting in order to calculate distance between geometries such as point-line distance."},
-          {"name":"Agile software development process with Scrum."}
+          {"name": "11111Designed and debugged desktop application in C#/WPF with MVVM, MVCVM, and SOLID Principle."},
+          {"name":"11111Designed and implemented highly interactive Windows-based GUI for application setup & part inspection using XAML."},
+          {"name":"11Integrate the existing math and image processing library for point fitting in order to calculate distance between geometries such as point-line distance."},
+          {"name":"11111Agile software development process with Scrum."}
         ]
       }
     ],
