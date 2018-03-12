@@ -55,52 +55,46 @@
   "resume":{
     "education":[
       {
-        "school":"The SFC College of Art",
-        "degree":"Bachelor",
-        "graduated":"April 2004",
-        "description":"Bachelor at the college of Art where I studied a broad aspect of skill sets including Photography and typography."
-      },
-      {
-        "school":"The AB Photography Institute",
-        "degree":"Diploma in Photography",
-        "graduated":"March 2006",
-        "description":"Completed and graduated with the Diploma in Photography at the AB Photography Institute."
+        "school":"University of California Davis",
+        "degree":"Bachelor of Science",
+        "graduated":"April 2016",
+        "description":"Computer Engineering Degree"
       }
     ],
     "work":[
       {
-        "company":"Block Media, Paris",
-        "title":"Senior Photographer ",
-        "years":"March 2009 - present",
+        "company":"Micro Vu",
+        "title":"Software Engineer",
+        "years":"April 2016 - present",
         "description":"Senior Photographer undertaking all aspects including strobes , photojournalism, documentary photography, Advanced Photoshop editing, and managed a team of Junior staff in a large commercial studio."
       },
       {
-        "company":"Eagle Production, Paris",
-        "title":"Junior Photographer",
-        "years":"March 2005 - February 2009",
+        "company":"Hexagon Metrology",
+        "title":"Application Engineer",
+        "years":"June 2015 - April 2016",
         "description":"Consolidating my knowledge and developing my studio skills set .Mastered the art of Photoshop and digital editing."
       }
     ],
     "skills":[
       {
-        "name":"Photoshop",
-        "level":"40%"
+        "name":"WPF (C#, XAML, MVVM)",
+        "level":"90%"
       },
       {
-        "name":"Illustrator",
-        "level":"25%"
+        "name":"NodeJS",
+        "level":"65%"
       },
       {
-        "name":"Photography",
+        "name":"ExpressJS",
+        "level":"65%"
+      },
+      {
+        "name":"React",
+        "level":"65%"
+      },
+      {
+        "name":"MongoDB",
         "level":"70%"
-      },
-      {
-        "name":"Branding",
-        "level":"30%"
-      },
-      {
-        "name":"Education",
-        "level":"50%"
       }
       
     ]
@@ -178,18 +172,6 @@
         "image":"theyoungone.jpg",
         "url":"http://port8.com",
         "modal":"#modal-08"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"We used Henri to take images on our behalf for a recent multi-million pound project. He completely understood the brief and his shots were well taken, striking and wonderfully framed. Henri is a punctual, polite and trustworthy individual who I wouldn’t hesitate to recommend to others as we will definitely be using him for future projects. He is a pleasure to work with.",
-        "user":"Laura Evans"
-      },
-      {
-        "text":"We approached Henri with an 11th hour request to photograph a building we had just re-branded. We were on a very tight deadline to produce the promotional material, ready for a launch party the following week. Henri was incredibly accommodating, and made himself available for the following day The photographs were excellent and met with the client’s approval, so much so that he also became the photographer for the launch event! Henri is highly personable and professional and I have no hesitation in recommending him.",
-        "user":"Steven Lauder (Director)"
       }
     ]
   }
