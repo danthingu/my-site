@@ -1,6 +1,35 @@
 import React, {Component} from 'react';
 
 class Contact extends Component {
+    constructor() {
+        super(); 
+        this.state = {
+            nameContact: '',
+            emailContact: "",
+            subjectContact: "",
+            messageContact: ""
+        };
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
+
+    handleChange(event) {
+        console.log(event);
+        const target = event.target;
+        const value = event.target.value;
+        console.log("target " + event.target);
+        const nameContact = target.nameContact;
+        console.log(nameContact);
+        
+        this.setState({
+            nameContact: value
+        });
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        this.setState({nameContact: ''});
+    }
     render() {
         if(this.props.data) {
             var name = this.props.data.name;
@@ -31,27 +60,27 @@ class Contact extends Component {
             <div className="row">
             <div className="eight columns">
 
-                <form action="" method="post" id="contactForm" name="contactForm">
+                <form action="" method="post" id="contactForm" name="contactForm" onSubmit={this.handleSubmit}>
                     <fieldset>
 
                     <div>
                             <label htmlFor="contactName">Name <span className="required">*</span></label>
-                            <input type="text" value="" size="35" id="contactName" name="contactName" />
+                            <input type="text" size="35" id="contactName" name="contactName" value={this.state.nameContact} onChange={this.handleChange}/>
                     </div>
 
                     <div>
                             <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                            <input type="text" value="" size="35" id="contactEmail" name="contactEmail" />
+                            <input type="text" size="35" id="contactEmail" name="contactEmail" value={this.state.emailContact} onChange={this.handleChange}/>
                     </div>
 
                     <div>
                             <label htmlFor="contactSubject">Subject</label>
-                            <input type="text" value="" size="35" id="contactSubject" name="contactSubject" />
+                            <input type="text" size="35" id="contactSubject" name="contactSubject" value={this.state.subjectContact} onChange={this.handleChange}/>
                     </div>
 
                     <div>
                         <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                        <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" value={this.state.messageContact} onChange={this.handleChange}></textarea>
                     </div>
 
                     <div>
