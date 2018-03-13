@@ -108,5 +108,19 @@
       }
       
     ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"InSpec",
+        "description":"Implement 3D Measurement Software for Precision System using WPF (C#, XAML, MVVM)",
+        "category":"WPF (C#, XAML, MVVM)",
+        "tags":"Desktop Development",
+        "image":"InSpec.jpg",
+        "url":"http://port1.com",
+        "modal":"#modal-01"
+      }
+      
+    ]
   }
 }
