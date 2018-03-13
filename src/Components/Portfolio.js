@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Popup from "reactjs-popup"
 
 class Portfolio extends Component {
     render() {
         if (this.props.data) {
+            
             var portfolio = this.props.data.projects.map(function(project) {
                 var imageUrl = 'images/portfolio/' + project.image;
                 console.log("title: " + project.title);
@@ -21,19 +23,36 @@ class Portfolio extends Component {
                     </div>
             });
         }
+        
         return (
             <section id="portfolio">
                 <div className="row">
                     <div className="twelve columns collapsed">
                         <h1>Here are the works that I have done</h1>
-                        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                        {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                             {portfolio}
-                        </div>
+                        </div> */}
+                        <Popup
+                            trigger={
+                                <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                                    {portfolio}
+                                </div> 
+                            } modal closeOnDocumentClick>
+                            <span> {this.props.data.projects.map(function(item) {
+                                console.log("item: " + item.description)
+                                return <div key={item.name}> 
+                                        <span>{item.description}</span>
+                                    </div>
+                                
+                            })} </span>
+                        </Popup>
                     </div>
                 </div>
             </section>
         )
     }
 }
+
+
 
 export default Portfolio;
