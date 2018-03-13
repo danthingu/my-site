@@ -24,9 +24,6 @@ class App extends Component {
     }
   }
 
-
-
-
   render() {
     console.log(myAbout);
     return (
