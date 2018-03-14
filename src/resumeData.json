@@ -132,6 +132,24 @@
         "image":"cryptoforum.jpg",
         "url":"http://port2.com",
         "modal":"#modal-02"
+      },
+      {
+        "title":"About Me",
+        "description":"Implement a front-end website About Me (React.JS)",
+        "category":"React.JS",
+        "tags":"Web Development",
+        "image":"AboutMe.jpg",
+        "url":"http://port3.com",
+        "modal":"#modal-03"
+      },
+      {
+        "title":"Weather Forecast",
+        "description":"Implement a front-end website to get five-day forecast in your favorite city (React.JS)",
+        "category":"React.JS",
+        "tags":"Web Development",
+        "image":"WeatherForecast.jpg",
+        "url":"http://port4.com",
+        "modal":"#modal-04"
       }
     ]
   }
