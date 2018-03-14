@@ -88,25 +88,29 @@
     "skills":[
       {
         "name":"WPF (C#, XAML, MVVM)",
+        "detail": "Expert, 4 years experience",
         "level":"90%"
       },
       {
         "name":"NodeJS",
-        "level":"65%"
+        "detail": "Intermediate, 2 years experience",
+        "level":"75%"
       },
       {
         "name":"ExpressJS",
-        "level":"65%"
+        "detail": "Intermediate, 2 years experience",
+        "level":"75%"
       },
       {
-        "name":"React",
-        "level":"65%"
+        "name":"React/Redux",
+        "detail": "Intermediate, 2 years experience",
+        "level":"85%"
       },
       {
         "name":"MongoDB",
-        "level":"70%"
+        "detail": "Intermediate, 2 years experience",
+        "level":"80%"
       }
-      
     ]
   },
   "portfolio":{
@@ -119,8 +123,16 @@
         "image":"InSpec.jpg",
         "url":"http://port1.com",
         "modal":"#modal-01"
+      },
+      {
+        "title":"CryptoForum",
+        "description":"Implement a back-end server forum for cryptocurrency discussion (Node.JS, Express, EJS, MongoDB)",
+        "category":"Node.JS, Express, EJS, MongoDB",
+        "tags":"Web Development",
+        "image":"cryptoforum.jpg",
+        "url":"http://port2.com",
+        "modal":"#modal-02"
       }
-      
     ]
   }
 }

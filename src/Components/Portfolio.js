@@ -24,32 +24,41 @@ class Portfolio extends Component {
             });
         }
         
-        return (
-            <section id="portfolio">
-                <div className="row">
-                    <div className="twelve columns collapsed">
-                        <h1>Here are the works that I have done</h1>
-                        {/* <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                            {portfolio}
-                        </div> */}
-                        <Popup
-                            trigger={
-                                <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                                    {portfolio}
-                                </div> 
-                            } modal closeOnDocumentClick>
-                            <span> {this.props.data.projects.map(function(item) {
-                                console.log("item: " + item.description)
-                                return <div key={item.name}> 
-                                        <span>{item.description}</span>
-                                    </div>
+        // return (
+        //     <section id="portfolio">
+        //         <div className="row">
+        //             <div className="twelve columns collapsed">
+        //                 <h1>Here are the works that I have done</h1>
+        //                 <Popup
+        //                     trigger={
+        //                         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+        //                             {portfolio}
+        //                         </div> 
+        //                     } modal closeOnDocumentClick>
+        //                     <span> {this.props.data.projects.map(function(item) {
+        //                         console.log("item: " + item.description)
+        //                         return <div key={item.name}> 
+        //                                 <span>{item.description}</span>
+        //                             </div>
                                 
-                            })} </span>
-                        </Popup>
+        //                     })} </span>
+        //                 </Popup>
+        //             </div>
+        //         </div>
+        //     </section>
+        // )
+        return (
+                <section id="portfolio">
+                    <div className="row">
+                        <div className="twelve columns collapsed">
+                            <h1>Here are the works that I have done</h1>
+                            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+                                {portfolio}
+                            </div> 
+                        </div>
                     </div>
-                </div>
-            </section>
-        )
+                </section>
+            )
     }
 }
 
