@@ -114,16 +114,11 @@ class Contact extends Component {
                     </fieldset>
                     </form>
 
-            <div id="message-warning"> Error boy</div>
-                    <div id="message-success">
-                    <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-                    </div>
             </div>
 
 
             <aside className="four columns footer-widgets">
                 <div className="widget widget_contact">
-
                         <h4>Address and Phone</h4>
                         <p className="address">
                             {name}<br />
